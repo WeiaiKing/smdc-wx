@@ -1,15 +1,29 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-  <view>
-  阿金来了</view>
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view class="page page-bg-primary">
+  <view class="main pt-30 relative z-1">
+    <view class="card wrap">
+      <view class="flex item-center justify-center flex-col">
+        <image src="http://unsplash.it/240/240" mode="aspectFill" class="card-header-img"></image>
+        <text class="card-header-text .mh-20">蛙小侠·万象旗舰店</text>
+        <text class="f5 mb-15">请确定用餐人数</text>
+        <van-row gutter="10">
+          <van-col span="6" wx:for="{{ 12 }}" :key="{{ index }}">
+            <view class="card-main-number {{ index === active && 'number_active' }}" bindtap='selectNumber'
+              data-idx="{{ index }}"> {{ index }} </view>
+          </van-col>
+        </van-row>
+        <view class="mt-20">当前桌号<text class="card-text-primary">A10</text>最多<text class="card-text-primary">10</text>人用餐
+        </view>
+      </view>
+    </view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+
+  <view class="footer-submit-btn wrap relative z-1">
+    <navigator class="footer-btn btn" url="/pages/product-list/product-list?count={{ active + 1 }}">
+      <image class="footer-icon mr-10" src="/assets/img/ic_order@3x.png"></image>
+      开始点餐
+    </navigator>
+  </view>
+  <view class="footer">
+    <image class="bg-img" src="/assets/img/bg_landing@3x.png"></image>
   </view>
 </view>

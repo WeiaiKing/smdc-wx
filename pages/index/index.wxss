@@ -1,21 +1,68 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.card {
+  margin-bottom: 60rpx;
+  padding: 30rpx;
+  background: #fff;
+  border-radius: 50rpx;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
+.card-header-img {
+  width: 240rpx;
+  height: 240rpx;
   border-radius: 50%;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.card-header-text {
+  font-weight: 500;
+  font-size: 40rpx;
 }
 
-.usermotto {
-  margin-top: 200px;
+.card-main-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rpx;
+  width: 120rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  border: 2rpx solid rgba(234, 234, 234, 1);
+}
+
+.number_active {
+  background: linear-gradient(360deg, rgba(248, 174, 90, 1) 0%, rgba(255, 205, 135, 1) 100%);
+  box-shadow: 0rpx 12rpx 20rpx -10rpx rgba(243, 169, 85, 0.5);
+  color: #fff;
+}
+
+.card-text-primary {
+  color: #F47E55;
+}
+
+.footer-btn {
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.footer-icon {
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50rpx;
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #fff;
+  background: #333;
+}
+
+.bg-img {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 528rpx;
+  height: 480rpx;
 }
