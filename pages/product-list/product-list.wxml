@@ -1,0 +1,48 @@
+<view class="page">
+    <view class="header">
+        <view class="header-title flex item-center">
+            <image class="logo-img" src="http://unsplash.it/240/240" mode="aspectFill" />
+            <view class="flex flex-col ml-15">
+                <text>欢迎来到</text>
+                <text class="header-title_text">蛙小侠·万象旗舰店</text>
+            </view>
+        </view>
+        <view class="header-btn flex mt-20">
+            <view class="header-btn-wrapper mr-15">
+                <button class="header-btn-container btn btn-primary" hover-class="darker" bindtap="service">呼叫服务
+                    <image class="header-btn-icon" src="/assets/img/ic_service@3x.png" />
+                </button>
+            </view>
+            <view class="header-btn-wrapper">
+                <button class="header-btn-container btn btn-second" hover-class="darker" bindtap="lookBill">查看账单/结账
+                    <image class="header-btn-icon" src="/assets/img/ic_bill@3x.png" />
+                </button>
+                <view class="news">10</view>
+            </view>
+        </view>
+    </view>
+    <view class="gutter" />
+    <view class="search flex item-center">
+        <view class="search-wrapper">
+            <image src="/assets/img/ic_search@3x.png" class="search_img"></image>
+            <input type="text" placeholder="搜索您想吃的菜品" placeholder-class="inp_text" bindinput="bindInput"
+                bindfocus='bindfocus' bindconfirm="search"></input>
+        </view>
+        <view class="search-cancel" wx:if="{{ cancel }}" bindtap="closeSearch">取消</view>
+    </view>
+    <view class="main flex justify-between mainbg_color">
+        <view class="tree-container">
+            <van-tree-select items="{{ items }}" main-active-index="{{ mainActiveIndex }}" active-id="{{ activeId }}"
+                bind:click-nav="{{onClickNav}}" bind:click-item="onClickItem" />
+        </view>
+        <scroll-view scroll-y class="menu-scoll-container">
+            <view wx:for="{{ menu.length }}" wx:for-index="idx">
+                <menu-list wx:for="{{menu[idx]}}" foodObj="{{item}}" />
+            </view>
+        </scroll-view>
+    </view>
+
+    <view class="footer">
+        <shop-navBar />
+    </view>
+</view>

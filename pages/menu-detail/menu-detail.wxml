@@ -1,0 +1,23 @@
+<view class="page">
+    <view class="header">
+        <view class="back-arrow" bindtap="back">
+            <image src="/assets/img/ic_back@3x.png" class="back-arrow_icon" />
+        </view>
+        <image src='https://i.picsum.photos/id/782/350/350.jpg?hmac=SD5vLw9nTODWUc8x5KaOF_153Ws752iH5c1vhDQSxcE'
+            class="detail-img" />
+    </view>
+    <view class="detail-title">
+        <view class="menu_name ellipsis">热卖主食</view>
+        <view class="menu_price">￥200</view>
+    </view>
+    <view class="main">
+        <view class="introduce">菜品介绍</view>
+        <view class="desc"> 蒜蓉开边虾是一道由蒜蓉和新鲜带壳虾为主要材料做成的菜品，属于粤菜系。大蒜味辛、性温，入脾、胃、肺经。具有温中消食、行滞气、暖脾胃、消积、解毒、杀虫的功效。
+            蒜蓉开边虾是一道由蒜蓉和新鲜带壳虾为主要材料做成的菜品，属于粤菜系。大蒜味辛、性温，入脾、胃、肺经。具有温中消食、行滞气、暖脾胃、消积、解毒、杀虫的功效。
+            蒜蓉开边虾是一道由蒜蓉和新鲜带壳虾为主要材料做成的菜品，属于粤菜系。大蒜味辛、性温，入脾、胃、肺经。具有温中消食、行滞气、暖脾胃、消积、解毒、杀虫的功效。</view>
+    </view>
+
+    <view class="footer">
+        <shop-navBar />
+    </view>
+</view>

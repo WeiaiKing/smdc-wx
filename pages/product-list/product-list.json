@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "menu-list": "/components/menu-list/menu-list",
+    "shop-navBar": "/components/shop-navBar/shop-navBar"
+  }
+}

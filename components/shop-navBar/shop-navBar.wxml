@@ -1,0 +1,9 @@
+<view class="shop-navBar">
+    <view class="flex item-center">
+        <view class="cart-img_inner">
+            <image src="/assets/img/ic_cart_normal@3x.png" class="cart_img"></image>
+        </view>
+        <text class="ml-15 shop-navBar-text_gray">未选购菜品</text>
+    </view>
+    <view class="noConfirm-btn">选好了</view>
+</view>

@@ -1,0 +1,39 @@
+.detail-img {
+    width: 750rpx;
+    height: 750rpx;
+}
+
+.back-arrow_icon {
+    width: 22rpx;
+    height: 40rpx;
+}
+
+.back-arrow {
+    width: 40rpx;
+    height: 40rpx;
+    /* background-color: black; */
+    position: fixed;
+    top: 5%;
+    left: 3%;
+    z-index: 9;
+}
+
+.main {
+    margin-bottom: 160rpx;
+}
+
+.main .introduce {
+    font-size: 32rpx;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+}
+
+.main .desc {
+    text-indent: 2em;
+    font-size: 28rpx;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 28rpx
+}

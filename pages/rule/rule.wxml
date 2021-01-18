@@ -1,0 +1,6 @@
+<view>
+    1.自定义了自己的样式（padding，flex，margin，weight，opacity,text-align）
+    2.如何更语义化和bem结构的代码
+    3.结构目录划分这里还是像之前的一样吧，不用大写，加个-。
+    4.语义结构-直接上中下
+</view>

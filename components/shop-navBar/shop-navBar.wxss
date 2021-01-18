@@ -1,0 +1,56 @@
+.shop-navBar {
+    height: 120rpx;
+    width: 100%;
+    padding: 20rpx 30rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: white;
+    z-index: 90
+}
+
+.cart-img_inner {
+    background-color: rgba(248, 174, 90, 1);
+    border-radius: 40rpx;
+    width: 80rpx;
+    height: 80rpx;
+    padding: 10rpx 8rpx 10rpx 12rpx;
+}
+
+.cart-img_inner .cart_img {
+    width: 60rpx;
+    height: 60rpx;
+}
+
+.shop-navBar-text_gray {
+    color: #999999;
+    font-size: 32rpx
+}
+
+.confirm-btn {
+    width: 236rpx;
+    height: 80rpx;
+    background-color: #333333;
+    font-size: 28rpx;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.noConfirm-btn {
+    background: rgba(213, 213, 213, 1);
+    border-radius: 40px;
+    width: 236rpx;
+    height: 80rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+}

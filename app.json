@@ -1,7 +1,10 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/end/end"
+        "pages/end/end",
+        "pages/product-list/product-list",
+        "pages/menu-detail/menu-detail"
+
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -12,7 +15,8 @@
     "usingComponents": {
         "van-button": "@vant/weapp/button/index",
         "van-row": "@vant/weapp/row/index",
-        "van-col": "@vant/weapp/col/index"
+        "van-col": "@vant/weapp/col/index",
+        "van-tree-select": "@vant/weapp/tree-select/index"
     },
     "sitemapLocation": "sitemap.json"
 }

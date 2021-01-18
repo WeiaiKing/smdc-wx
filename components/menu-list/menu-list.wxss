@@ -1,0 +1,52 @@
+.menu {
+    display: flex;
+    width: 544rpx;
+    height: 228rpx;
+    background: #fff;
+    box-shadow: 0rpx 0rpx 3rpx rgba(200, 200, 200, 0.5);
+    border-radius: 24rpx;
+    box-sizing: border-box;
+    padding: 24rpx;
+    margin-bottom: 15px;
+}
+
+.menu-img {
+    width: 180rpx;
+    height: 180rpx;
+    margin-right: 20rpx;
+    border-radius: 20rpx;
+}
+
+.menu-icon_plus {
+    width: 24rpx;
+    height: 24rpx
+}
+
+.menu-right_title {
+    font-size: 32rpx;
+    font-weight: bolder;
+    color: #333;
+    line-height: 50rpx;
+    word-break: break-all;
+}
+
+.menu-right_desc {
+    font-size: 24rpx;
+    color: #999;
+    line-height: 36rpx;
+}
+
+.menu-right_price {
+    color: #FD5656;
+    font-size: 32rpx
+}
+
+.menu-right-add_button {
+    width: 56rpx;
+    height: 56rpx;
+    border-radius: 28rpx;
+    border: 1px solid #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

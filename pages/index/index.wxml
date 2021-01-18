@@ -19,7 +19,7 @@
 
   <view class="footer-submit-btn wrap relative z-1">
     <navigator class="footer-btn btn" url="/pages/product-list/product-list?count={{ active + 1 }}">
-      <image class="footer-icon mr-10" src="/assets/img/ic_order@3x.png"></image>
+      <image class="footer-icon mr-10" src="/assets/img/ic_order@3x.png" url="/pages/product-list/product-list?count={{ active + 1 }}"></image>
       开始点餐
     </navigator>
   </view>

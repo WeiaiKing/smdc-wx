@@ -1,0 +1,13 @@
+<view class="menu">
+    <image class="menu-img" src="{{foodObj.img_url}}" mode="aspectFill" />
+    <view class="flex flex-col nenu-right">
+        <text class="menu-right_title"> {{foodObj.name}}</text>
+        <text class="menu-right_desc mh-10">{{foodObj.desc}}</text>
+        <view class="flex justify-between item-center">
+            <text class="menu-right_price">¥{{foodObj.price}}</text>
+            <view class="menu-right-add_button">
+                <image src="/assets/img/ic_plus@3x.png" class="menu-icon_plus" />
+            </view>
+        </view>
+    </view>
+</view>

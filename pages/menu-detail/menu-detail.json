@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "shop-navBar": "/components/shop-navBar/shop-navBar"
+  },
+  "navigationStyle": "custom"
+}
