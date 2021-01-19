@@ -1,0 +1,21 @@
+<view class="page">
+
+    <view class="header">
+
+    </view>
+
+    <view class="main">
+
+    </view>
+
+    <view class="footer">
+        <view class="pay-btn" bindtap="onPayCash">
+            <image src="/assets/img/ic_bill3x.png" class="pay-img" />
+            <text class="pay-text ml-5">现金支付</text>
+        </view>
+        <view class="pay-btn" bindtap="onPayWx">
+            <image src="/assets/img/ic_wechatpay@3x.png" class="pay-img" />
+            <text class="pay-text ml-5">微信支付</text>
+        </view>
+    </view>
+</view>

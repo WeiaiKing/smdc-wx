@@ -1,2 +1,8 @@
-<!--pages/end/end.wxml-->
-<text>pages/end/end.wxml</text>
+<view class="header ">
+    <view class="main">
+        <image src="http://i.sosuo.name/img/xingshi/pbbgx.jpg" class="main-icon" />
+        <view class="main-thank">谢谢惠顾</view>
+        <view class="main-content">期待您的下次光临</view>
+    </view>
+</view>
+<image src="/assets/img/bg_landing@3x.png" class="bg_img z-1"></image>

@@ -1,0 +1,42 @@
+.header {
+    padding-left: 30rpx;
+    margin: 75rpx 0;
+}
+
+.call_text {
+    font-size: 28rpx;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+}
+
+.help_text {
+    font-size: 40rpx;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+}
+
+.service_img {
+    width: 70rpx;
+    height: 85rpx;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 30rpx;
+}
+
+.service-item:nth-child(odd) {
+    padding-left: 30rpx;
+}
+
+.service-item:nth-child(even) {
+    padding-left: 15rpx;
+}

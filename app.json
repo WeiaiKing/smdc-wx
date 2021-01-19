@@ -3,7 +3,9 @@
         "pages/index/index",
         "pages/end/end",
         "pages/product-list/product-list",
-        "pages/menu-detail/menu-detail"
+        "pages/menu-detail/menu-detail",
+        "pages/service/service",
+        "pages/bill/bill"
 
     ],
     "window": {

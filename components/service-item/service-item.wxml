@@ -1,0 +1,13 @@
+<!-- service item -->
+<view class="service-item flex flex-col item-center justify-center" bindtap="onShowTip">
+    <image src="{{serviceItem.service_img}}" class="service-img"></image>
+    <text class="service-text">{{serviceItem.title}}</text>
+</view>
+<!-- tip -->
+<view class="service-tip flex justify-center item-center" wx:if="{{showTip}}" bindtap="onCloseTip">
+    <view class="service-tip_inner flex flex-col item-center justify-center pt-30">
+        <image src="/assets/img/pic_success@3x.png" class="service-tip_img"></image>
+        <text class="service-tip_text">{{ serviceItem.tip }}</text>
+        <text class="service-tip_desc">{{ serviceItem.desc }}</text>
+    </view>
+</view>

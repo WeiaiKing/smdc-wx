@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "service-item": "/components/service-item/service-item"
+  }
+}

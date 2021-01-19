@@ -61,6 +61,18 @@
                 {
                     "name": "pages/menu-detail/menu-detail",
                     "pathName": "pages/menu-detail/menu-detail",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/service/service",
+                    "pathName": "pages/service/service",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/bill/bill",
+                    "pathName": "pages/bill/bill",
                     "scene": null
                 }
             ]

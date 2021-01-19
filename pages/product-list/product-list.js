@@ -161,6 +161,17 @@ Page({
         ],
 
     },
+    // 呼叫服务
+    service() {
+        wx.navigateTo({
+            url: '/pages/service/service',
+        })
+    },
+    lookBill() {
+        wx.navigateTo({
+            url: '/pages/bill/bill',
+        })
+    },
     // 搜索框点击
     bindInput(e) {
         this.setData({

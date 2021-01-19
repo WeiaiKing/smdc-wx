@@ -1,0 +1,59 @@
+.service-item {
+    width: 330rpx;
+    height: 240rpx;
+    background: rgba(242, 242, 244, 1);
+    border-radius: 50rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.service-img {
+    width: 98rpx;
+    height: 98rpx;
+    text-align: center;
+}
+
+.service-text {
+    font-size: 32rpx;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    text-align: center;
+}
+
+.service-tip {
+    background-color: rgba(0, 0, 0, 0.15);
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.service-tip_img {
+    width: 160rpx;
+    height: 160rpx;
+}
+
+.service-tip_inner {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 30rpx 90rpx 0px rgba(0, 0, 0, 0.3);
+    border-radius: 50rpx;
+    padding-bottom: 64rpx;
+}
+.service-tip_text{
+    font-size:40rpx;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    text-align: center;
+    padding-top:30rpx;
+}
+
+.service-tip_desc{
+    padding: 30rpx 68rpx;
+    text-align: center
+}
